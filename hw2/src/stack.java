@@ -37,7 +37,6 @@ public class stack<Item> {
     }
 
     public Item peek(){
-        if (isEmpty()) throw new NoSuchElementException("Stack boş.");
         return first.item;
     }
 }
