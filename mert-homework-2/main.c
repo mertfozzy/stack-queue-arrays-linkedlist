@@ -3,7 +3,7 @@
 
 void intro_ekrani() { //my signature move in C codding :)
   printf("\n----------------------------------\n");
-  printf("|  Software Engineering Project  |");
+  printf("| Systems Programming Homework 2 |");
   printf("\n----------------------------------\n");
   printf("|     Made By: Mert Altuntas     |");
   printf("\n----------------------------------\n");
@@ -16,7 +16,7 @@ void intro_ekrani() { //my signature move in C codding :)
     printf(".");
     for (j = 0; j <= 120000000; j++);
   }
-  system("cls");
+  
 }
 
 struct Node
@@ -104,12 +104,13 @@ void dequeue(){
 }
 
 int main(){
+    intro_ekrani();
     main:
     while (1)
     {
         int secim;
         int capacity;
-        printf("Stack için 1'e, Queue için 2'ye basiniz : \t");
+        printf("\n\nStack için 1'e, Queue için 2'ye basiniz : \t");
         scanf("%d", &secim);
         switch (secim)
         {
